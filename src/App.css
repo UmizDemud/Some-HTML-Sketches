@@ -1,0 +1,51 @@
+.App {
+    background-color: aliceblue;
+}
+
+div {
+    text-align: center;
+}
+
+.Header {
+    background: rgb(102,102,204);
+background: linear-gradient(90deg, rgba(50,40,110,1) 0%, rgba(120,120,120,1) 29%, rgba(90,90,110,1) 100%);
+    width: 100%;
+    position: sticky;
+    height: 10vh;
+    text-align: center;
+    display: inline-flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.InitialScreen {
+    width: 100%;
+}
+
+.RightColumn {
+    position:absolute;
+    width: 64%;
+    height: 90vh;
+    top: 10vh;
+    left: 36%;
+}
+
+.hdr-btn {
+    padding: 2vh 40px;
+    line-height: 6vh;
+    font-size: 46px;
+    font-weight: 500;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.hdr-btn:hover {
+    background-color: #446;
+    opacity: .8;
+    border-radius: 15px;
+}
+
+.hdr-btn:active {
+    background-color: #aaf;
+}
